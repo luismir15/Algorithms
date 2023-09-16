@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug swift-kata-machine",
+      "program": "${workspaceFolder:swift-kata-machine}/.build/debug/swift-kata-machine",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-kata-machine}",
+      "preLaunchTask": "swift: Build Debug swift-kata-machine"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release swift-kata-machine",
+      "program": "${workspaceFolder:swift-kata-machine}/.build/release/swift-kata-machine",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-kata-machine}",
+      "preLaunchTask": "swift: Build Release swift-kata-machine"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug SwiftKataMachine",
+      "program": "${workspaceFolder:swift-kata-machine}/.build/debug/SwiftKataMachine",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-kata-machine}",
+      "preLaunchTask": "swift: Build Debug SwiftKataMachine"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release SwiftKataMachine",
+      "program": "${workspaceFolder:swift-kata-machine}/.build/release/SwiftKataMachine",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-kata-machine}",
+      "preLaunchTask": "swift: Build Release SwiftKataMachine"
+    }
+  ]
+}
